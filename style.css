@@ -1,0 +1,154 @@
+body {
+    background: #333551;
+    font-family: sans-serif;
+    margin: 0;
+    font-weight: lighter;
+}
+
+#secret {
+    color: #000;
+    font-size: .5rem;
+    font-weight: 100;
+}
+
+#nav {
+    background: lightslategray;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn {
+    margin-right: 2rem;
+    border-radius: 1rem;
+    height: 2.1rem;
+    width: fit-content;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-size: 1.3rem;
+    font-weight: 100;
+    border: none;
+    background: #0f3dd6;
+    color: #fff;
+    /*border: solid .1875rem #000;*/
+}
+
+.btn:hover {
+   background: #0a278d;
+    cursor: pointer;
+}
+
+#list_container {
+    width: fit-content;
+    height: fit-content;
+}
+
+#list {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    color: #fff;
+    flex-direction: column;
+
+}
+
+.list__element {
+    padding-bottom: .1875rem;
+    border-bottom: .1875rem #fff solid;
+    margin-bottom: .2rem;
+    margin-left: .5rem;
+    padding-right: .9rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.order {
+    color: #fff;
+}
+
+.order::after {
+    content: "";
+    width: .5rem;
+    display: inline-flex;
+}
+
+.time__sep {
+    color: #7fffd4;
+    font-weight: 700;
+}
+
+.ymd {
+    color: #ec3a0ee7;
+}
+
+.hms {
+    color: #ec1d0ee7;
+}
+
+.time__zone::before {
+    content: "";
+    width: 1.7rem;
+    display: inline-block;
+}
+
+.time__zone {
+    color: #d7ee53;
+    width: 13.75rem
+}
+
+.utc {
+    color: #658eff;
+    font-weight: lighter;
+    width: 5.625rem;
+}
+
+.utc::after{
+    content: "";
+    width: 1rem;
+    display: inline-block;
+}
+
+.country {
+    width: 3.125rem;
+    color: #8cd8a4;
+}
+
+.data__sep {
+    font-weight: 100;
+    color: #87deed;
+}
+
+.ip:before {
+    content: "";
+    width: 1rem;
+    display: inline-block;
+}
+
+.ip {
+    color:#0afa0a;
+    width: 12.188rem;
+}
+
+.browser::before {
+    content: "";
+    width: 1rem;
+    display: inline-block;
+}
+
+.browser {
+    color: #ff1c1c;
+    width: 12.5rem;
+}
+
+.os::before {
+    content: "";
+    width: 1rem;
+    display: inline-block;
+}
+
+.os {
+    color: #5e93c4;
+    font-weight: 500;
+}
+
